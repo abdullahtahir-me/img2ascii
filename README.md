@@ -84,7 +84,7 @@ From darkest to lightest:
 
 Here’s how an image looks when converted into ASCII:
 
-![ASCII Art Output](src/OUTPUT.png)
+![ASCII Art Output](./OUTPUT.png)
 
 > The image above was processed using this program and shows terminal-style ASCII rendering.
 
