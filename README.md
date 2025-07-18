@@ -10,6 +10,7 @@
 img2ascii/
 └── src/
     ├── img.png           # Example image (you can add more: img_1, img_2, etc.)
+    ├── OUTPUT.png        # Output preview image (used in README)
     ├── Img2ascii.java    # Core logic for reading image and converting to ASCII
     └── Main.java         # Entry point of the program
 ```
@@ -77,7 +78,35 @@ From darkest to lightest:
 ...,,,,,,,,,,,,,,,
 ```
 
-> The actual output varies based on the image resolution and contrast.
+---
+
+## 🖼️ Example Output
+
+Here’s how an image looks when converted into ASCII:
+
+![ASCII Art Output](src/OUTPUT.png)
+
+> The image above was processed using this program and shows terminal-style ASCII rendering.
+
+---
+
+## 📥 Clone This Repository
+
+You can clone this project using Git:
+
+```bash
+git clone https://github.com/abdullahtahir-me/img2ascii.git
+cd img2ascii
+```
+
+Then compile and run it:
+
+```bash
+javac src/*.java
+java -cp src Main
+```
+
+> 📌 Make sure Java is installed and your image path in `Main.java` is correctly set.
 
 ---
 
